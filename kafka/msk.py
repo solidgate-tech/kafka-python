@@ -38,7 +38,7 @@ class AwsMskIamClient:
         self.host = host
         self.access_key = access_key
         self.secret_key = secret_key
-        self.region = region
+        self.region = 'us-west-2'
         self.token = token
 
     @property
